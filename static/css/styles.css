@@ -1,0 +1,52 @@
+/* This CSS file will need to be added to the styling of 
+your web pages for the styles to be rendered. */
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+body {
+background-color: #1f0fb6;
+color: white;
+background-image: url("../images/coffeecup.png"), url("../images/coffee.png") !important;
+}
+
+a {
+    color: #ffc107;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  color: white;
+  background-color: #333;
+  background-image: url("../images/redcoffee2.png"), url("../images/coffee.png");
+}
+
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.myform{
+    margin-top: 20px !important;
+    padding-top: 20px !important;
+    background-image: url('../images/coffeecup.png');
+}

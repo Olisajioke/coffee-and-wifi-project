@@ -1,0 +1,14 @@
+.container {
+    background-color: #1f0fb6;
+    color: rgb(248, 244, 244);
+    background-image: url("../images/redcoffee2.png") !important;
+    }
+    
+    a {
+        color: #ffc107;
+    }
+
+.cont {
+    background-image: url("../images/redcoffee2.png") !important;
+    align-items: center;
+}

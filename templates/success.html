@@ -1,0 +1,18 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Success{% endblock %}
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('.static', filename='css/styles.css') }}">
+{% endblock %}
+{% block content %}
+<div class="gradient-background"></div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Success!</h1>
+      <p>Your cafe has been added to the database.</p>
+      <a class="btn btn-warning btn-lg" href="{{ url_for('home') }}" role="button">Home Page</a>
+      <a class="btn btn-warning btn-lg" href="{{ url_for('add_cafe') }}" role="button">Add New Cafes</a>
+      <a class="btn btn-warning btn-lg" href="{{ url_for('cafes') }}" role="button">See The Cafes</a>
+    </div>
+  </div>
+{% endblock %}
